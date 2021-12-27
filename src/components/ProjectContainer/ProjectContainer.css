@@ -1,0 +1,59 @@
+.project {
+    padding: 2em;
+    margin: 0 auto;
+    text-align: center;
+    box-shadow: var(--shadow);
+    transition: transform 0.2s linear;
+}
+  
+.project:hover {
+    transform: translateY(-7px);
+}
+
+.project__name {
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+  
+.project__description {
+    margin-top: 1em;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.project__authors {
+    font-size: 1.2rem;
+    margin-top: 1em;
+    text-align: left;
+}
+
+.project__authors-detail {
+    font-style: italic;
+}
+
+.project__detail-highlight {
+    font-weight: 600;
+}
+
+.project__break {
+    margin-top: 1em;
+}
+  
+.project__stack {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 1.2em 0;
+}
+  
+.project__stack-item {
+    margin: 0.5em;
+    font-weight: 500;
+    font-size: 1rem;
+    color: var(--clr-fg-alt);
+}
+  
+.project .link--icon {
+    margin-left: 0.5em;
+}
+  
